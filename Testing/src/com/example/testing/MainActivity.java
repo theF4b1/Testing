@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		//Einfach übernehmen als Adapter-Konstruktor
+		//Einfach übernehmen als Adapter-Konstruktor.
 		adapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listItems);
 		ListView listView = (ListView) findViewById(R.id.listView1);
 		listView.setAdapter(adapter);
